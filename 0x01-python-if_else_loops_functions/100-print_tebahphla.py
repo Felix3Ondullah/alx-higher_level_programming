@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for ascii_num in range(122, 96, -1):
-	if ascii_num % 2 == 1:
-		ascii_num = ascii_num - 32
-	print("{:c}".format(ascii_num), end='')
+for letter in range(122, 96, -1):
+    if letter % 2 == 1:
+        letter = letter - 32
+    print("{:c}".format(letter), end='')
